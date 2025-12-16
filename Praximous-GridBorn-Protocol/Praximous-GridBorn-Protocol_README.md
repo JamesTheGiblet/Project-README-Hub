@@ -1,92 +1,59 @@
-# 🕹️ GRIDBORN PROTOCOL
+# The Gridborn Engine: A Blueprint for Pure Tactical Combat
 
-AModular 8-Bit Arena Engine for Sovereign Combat
+The grid is the field. The trail is the weapon.
 
-“In the compressed grid, only the mythic endure. Every trail is a lineage. Every crash, a ritual.”
+🧠 Core Philosophy
 
-🔮 Overview
-Gridborn Protocol is a tactical, 8-bit combat engine where players pilot mythic vehicles across compressed arenas, leaving deadly trails and invoking pixel-bound rituals. Inspired by TRON, Advance Wars, and sovereign builder philosophy, this system fuses retro aesthetics with modular depth.
+The Gridborn Engine is not a game; it is a tactical protocol. It’s a blueprint for a dialectic of space and consequence, built for emergent strategy. Its core principles are simple and direct:
 
-Built for expansion, lore, and community co-authorship, Gridborn is not just a game—it’s a ritualized battlefield of movement, memory, and myth.
+    The Law of Spatial Discipline: All conflict is contained within a small grid. This constraint forces deliberate, dense decisions, where every move has immediate and predictable consequences.
 
-🧱 Core Features
-Modular Vehicle Classes: Motorcycles, tanks, planes, ships, and more—each with unique movement, trail logic, and combat roles.
-Compressed Grid Combat: Small grids (8×8 to 16×16) amplify tactical density and trail saturation.
-Trail-Based Warfare: Every move leaves a trail; every trail is a weapon.
-Obstacles & Terrain: Walls, warp nodes, fog tiles, and sigil gates shape the battlefield.
-Power-Ups & Power-Downs: Blessings and curses that shift momentum mid-match.
-Mythic Lore System: Vehicles, arenas, and pickups are named, storied, and scroll-bound.
-8-Bit Aesthetic: Pixel sprites, chiptune FX, and golden-ratio glyphs.
+    The Law of Traceability: The act of movement itself creates the primary hazard and strategic tool. The trail becomes a permanent record of past actions, forcing a constant negotiation with history.
 
-🚗 Vehicle Classes
-Each vehicle is a Sigil Vessel, forged by ancient builders and defined by:
+    The Law of Modular Purity: All components—from vehicles to effects—are defined solely by their mechanical properties. They are archetypes of movement, not narrative artifacts, ensuring that every piece of the engine is testable, predictable, and devoid of aesthetic clutter.
 
-Movement Pattern: Speed, turn logic, grid interaction
-Trail Behavior: Length, fade rate, collision effect
-Combat Role: Zoner, flanker, disruptor, defender
+⚙️ Key Features
 
-| Class        | Speed  | Trail Type      | Role      | Lore Name      |
-|--------------|--------|---------------- |-----------|----------------|
-| Motorcycle   | Fast   | Thin, long      | Agile     | Flickerblade   |
-| Tank         | Slow   | Thick, short    | Zoner     | Iron Sigil     |
-| Plane        | Medium | Air trail       | Flanker   | Skybrand       |
-| Spaceship    | Warp   | Phased trail    | Disruptor | Void Sovereign |
-| Ship         | Slow   | Wake trail      | Defender  | Tidewarden     |
-| Mech Walker  | Heavy  | Footstep trail  | Bruiser   | Echo Stomp     |
+Emoji Name What It Is
+🪞 The Vehicle Logic Vehicles are living constructs, defined by their modular behavior: movement, trail type, and collision response.
+🏰 The Arena Citadel The battleground is a dynamic, procedurally defined space where walls and pickups are deliberate parts of the tactical design.
+✨ The Catalyst of Change A system for triggering powerful, time-limited effects that can dramatically alter the state of the grid, from "Grid Flips" to "Trail Surges."
+🤖 The Strategic Automaton An AI system that operates on a clear, deterministic decision tree, allowing for isolated testing and predictable bot opponents.
+⛓️ The Peer-to-Peer Weave Multiplayer is built on a peer-to-peer foundation, ensuring low-latency, direct conflict without a central authority.
 
-🗺️ Arena System
-Arenas are Scroll Maps, each defined by:
+🚀 Quick Start
 
-Grid Size: 8×8, 12×12, 16×16
-Terrain Tiles: Road, water, sky, warp zones
-Obstacles: Walls, gates, mines, fog, mirrors
-Dynamic Events: Gridfolding, collapsing zones, ritual triggers
+To awaken the engine, follow these simple steps.
 
-⚡ Power Mechanics
-Power-Ups (Blessings)
-Sigil Surge: Speed boost
-Echo Thread: Trail extender
-Glyph Ward: Temporary shield
-Foldstep: Phase through obstacle
-Power-Downs (Curses)
-Sigil Decay: Trail fades faster
-Graviton Bind: Movement slows
-Chaos Glyph: Inverted controls
-Fractured Thread: Trail flickers
-Pickups spawn via ritual zones, trail combos, or arena events.
+Prerequisites:
 
-🎨 Visual & Audio Style
-Sprites: 8-bit pixel art (16×16 to 32×32)
-Trails: Glowing lines, fading echoes, mirrored sigils
-FX: Chiptune hums, glitch pulses, warp echoes
-UI: Retro HUD with mythic glyphs and scroll indicators
-🧙 Lore & Contributor Rituals
-Gridborn is a sovereign mythic system, built for co-authorship:
+    Rust 1.70+
 
-Sigil Scrolls: Every vehicle and arena has a lineage document
-Builder Rituals: Contributors unlock new classes via design quests
-Glyph Keys: Used to access hidden arenas or power modules
-Scroll Maps: Community-designed arenas with embedded lore
+    A recent version of cargo
 
-🧩 Modular Architecture
-src/
-├── engine/          # Core loop, grid logic, collision
-├── vehicles/        # Movement modules, trail logic
-├── arena/           # Tilemaps, obstacles, pickups
-├── fx/              # Visual and audio effects
-├── lore/            # Scrolls, glyphs, rituals
-├── ui/              # HUD, menus, intro text
-└── assets/          # Sprites, sounds, glyphs
+Installation:
 
-🚀 Getting Started
-Clone the repo
-Choose a grid size and vehicle class
-Run the engine and enter the arena
-Leave your trail. Invoke your myth.
+```bash
+# Clone the tactical forge
+git clone https://github.com/gilbe/Praximous-GridBorn-Protocol.git
+cd Praximous-GridBorn-Protocol
+# Build the core construct
+cargo build --release
+```
 
-🧠 Philosophy
-Gridborn Protocol is a sovereign artifact. It honors modularity, authorship, and tactical clarity. Every mechanic is a metaphor. Every sprite, a sigil. Every contributor, a mythic builder.
+Basic Usage:
 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+Run the example duel scenario to see the protocol in action:
+
+```bash
+# Initiate a test duel
+cargo run --example duel
+```
+=======
+=======
+>>>>>>> Stashed changes
 📜 Ritualized Contribution & Remixing
 Gridborn Protocol is a sovereign artifact, meant to be remixed. All contributors become part of the lore, their work immortalized in the `lineage_registry.json`.
 
@@ -107,5 +74,98 @@ In short, you are free to use this project for any purpose, commercial or privat
 Created by James The Giblet.
 Mythic builder, sovereign architect, and ritual coder
 Bicester, Oxfordshire
+>>>>>>> Stashed changes
 
-“The grid remembers. The trail reveals. The builder endures.”
+🛠️ Configuration
+
+Arenas are defined by a simple .grid file format, allowing for the quick construction of new tactical scenarios. This allows you to act as an arena architect.
+
+[arena]
+size = "12x12"
+walls = ["(3,3)", "(3,4)", "(3,5)"]
+pickups = ["speed_boost@5,5"]
+
+📊 How It Works
+
+    The Architect's Command: Generate a new arena with a unique wall layout to test a specific tactical scenario.
+
+    The Strategist's Query: Isolate a specific AI module and run it against a benchmarked scenario to measure its tactical efficiency.
+
+    The Weaver's Test: Implement a new Phased trail type and verify its interaction with all existing collision rules.
+
+🧬 Contributing
+
+We invite you to join the Architects of the Gridborn Engine. Contributions are not just about adding features; they are about upholding the core philosophy of clarity, determinism, and modularity.
+
+The Guilds of Gridborn:
+
+    The Weaver: For those who will craft new Vehicle or Effect modules, ensuring they adhere to the law of modular purity.
+
+    The Cartographer: For those who will design new .grid arenas, exploring the tactical possibilities of the constrained space.
+
+    The Oracle: For those who will refine the AI decision trees and test them for perfect, deterministic behavior.
+
+Contribution Flow:
+
+    Fork the repository.
+
+    Adhere to the core principles: no aesthetic drift, no hackable lore, only testable mechanics.
+
+    Submit a Pull Request for review.
+
+🏟️ The Trials
+
+We test new additions not just with unit tests, but with trials designed to prove their tactical integrity.
+
+    The Architect's Gauntlet: A trial where a new arena must be proven to be free of unintended deterministic loops or dead-ends.
+
+    The Duel of the Golems: A test where a new Vehicle or Effect module must face a series of known AI bots and maintain its predictable behavior.
+
+    The Trial of Purity: An audit to ensure a new contribution has not introduced any non-deterministic or obscure logic.
+
+📚 Documentation
+
+The knowledge of the engine is contained within these files:
+
+    Vehicle Interface Spec
+
+    Arena File Format Guide
+
+    AI Strategy Modules
+
+🗺️ The Roadmap of the Engine
+
+The Gridborn Engine is a living protocol, not a finished product. Our journey is defined by the quest for greater purity and tactical depth.
+
+    Current: Fortifying the core AI system and fixing critical known issues.
+
+    Next Phase: Expanding the Effect system with new, deterministic catalysts.
+
+    Future: Exploring new multiplayer paradigms and AI benchmarks.
+
+🤝 The Collective
+
+The grid awaits your mark. Join the collective of Architects and Strategists.
+
+GitHub: <https://github.com/gilbe/Praximous-GridBorn-Protocol>
+Community: See the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to join the dialogue.
+
+⚖️ Risk Disclaimer
+
+The Gridborn Engine is a purely mechanical framework. Its sole purpose is to model deterministic combat. The interactions within it are predictable, but the strategies that emerge from them are complex and cannot be guaranteed.
+
+📄 License
+
+This project is an open protocol, released under the MIT License.
+
+🙏 Acknowledgments
+
+We stand on the shoulders of digital giants like TRON and other grid-based games, whose simplicity laid the foundation for the tactical elegance we seek to achieve.
+
+🧭 Call to Adventure
+
+"The elegance of the grid is its honesty. You cannot hide. You can only move with intention."
+
+Do not come seeking narrative or fantasy. Come seeking a pure tactical challenge, a machine of perfect logic, and a forge for strategic mastery.
+
+Enter the grid and prove your intent.
